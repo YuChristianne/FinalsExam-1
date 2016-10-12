@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.usjr.finalsexam.R;
+import com.usjr.finalsexam.activity.MainActivity;
 import com.usjr.finalsexam.entity.Video;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class VideoListAdapter extends BaseAdapter {
 
     private Context     mContext;
     private List<Video> mVideos;
+    private MainActivity view;
 
     public VideoListAdapter(Context context, List<Video> videos) {
         mContext = context;
